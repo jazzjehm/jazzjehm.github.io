@@ -1,0 +1,73 @@
+body {
+	color: white;
+	background: black;
+}
+/*h1 {color: orange;}
+
+}*/
+.contenido article{
+	width: 47%;
+	float: left;
+	margin: .3%;
+	border: 2px solid pink;
+	padding: .5%;
+	
+	
+}
+
+#presentacion2{
+
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+
+
+}
+
+.conceptos{
+
+	padding: 0px 20px 0px 20px
+}
+.indice{
+	padding: 0px 0px 0px 20px
+}
+
+#menu ul li{
+	display: inline;
+	padding-left: 2%;
+	padding-right: 2%;
+	border: 1px solid white;
+	margin-left: 1%; 
+}
+
+#menu a:hover {
+	color: yellow;
+}
+
+
+footer{
+	clear: both;
+	width: 50%;
+	padding-left: 1%;  
+}
+
+.ocultar {
+	display: none;
+}
+
+.descargas ul li{
+
+	display: inline;
+	padding: 10px 10px 10px 10px;
+}
+.descargas{
+	clear: both;}
+
+.descargas a:hover {
+	color: yellow;
+}
+
+.redes-sociales{
+
+	padding: 10px 10px;
+}

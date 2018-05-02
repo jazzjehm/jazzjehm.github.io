@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es"> 
+<head>
+	<meta charset="utf-8"/> 
+	<title>CADIF1</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">	
+</head>
+
+<body>
+	<div class="contenedor"> 
+		<header id="encabezado">
+			
+
+			<figure>
+				<a href="index.html"><img 
+					src="img/logo.png"
+					alt="logo" 
+					/></a>
+				</figure>
+				<nav id="menu">
+					<ul>
+						<li><a href="html5.html">HTML5</a></li>
+						<li><a href="css3.html">CSS3</a></li>
+						<li><a href="javascript.html">Javascript</a></li>
+						<li><a href="jquery.html">JQUERY</a></li>
+					</ul>
+				</nav>
+			</header>
+
+
+			<section class="indice">
+				<h2>Indice</h2>
+				<ul>
+					<li><a href="#presentacion2">HTML5</a></li>
+
+					<li><a href="#indice2">sintaxis</a></li>
+
+					<li><a href="#indice3">ventajas</a></li>
+
+					<li><a href="#indice4">caracteristicas</a></li>
+					
+
+				</ul>
+			</section>
+
+
+
+
+
+
+
+			<section id ="presentacion2"> 
+				<h2>CSS3</h2>
+			</section>
+
+			<section class="contdo"> 
+
+				<article class="conceptos">
+					
+					<p>Las hojas de estilo en cascada o (Cascading Style Sheets, o sus siglas CSS) hacen referencia a un lenguaje de hojas de estilos usado para describir la presentación semántica (el aspecto y formato) de un documento escrito en lenguaje de marcas. Su aplicación más común es dar estilo a páginas webs escritas en lenguaje HTML y XHTML, pero también puede ser aplicado a cualquier tipo de documentos XML, incluyendo SVG y XUL.</p>
+
+					<p>La información de estilo puede ser adjuntada como un documento separado o en el mismo documento HTML. En este último caso podrían definirse estilos generales en la cabecera del documento o en cada etiqueta particular mediante el atributo "style".</p>
+
+					<div id="indice2"><h3>Sintaxis</h3></div>
+					
+
+					<p><strong>CSS</strong> tiene una sintaxis muy sencilla, que usa unas cuantas palabras clave tomadas del inglés para especificar los nombres de varias propiedades de estilo. Una hoja de estilo se compone de una lista de reglas. Cada regla o conjunto de reglas consiste en uno o más selectores y un bloque de declaración (o "bloque de estilo") con los estilos a aplicar para los elementos del documento que cumplan con el selector que les precede. Cada bloque de estilos se define entre llaves, y está formado por una o varias declaraciones de estilo con el formato propiedad:valor;.</p>
+
+					<p>En el CSS, los selectors marcarán qué elementos se verán afectados por cada bloque de estilo que les siga, pudiendo afectar a uno o varios elementos a la vez, en función de su tipo, nombre (name), ID, clase (class), posición dentro del Document Object Model, etcétera.</p>
+					<div id="indice3"><h3>Ventajas</h3></div>
+					
+
+					<p>Control centralizado de la presentación de un sitio web completo con lo que se agiliza de forma considerable la actualización del mismo.</p>
+
+					<p>Separación del contenido de la presentación, lo que facilita al creador, diseñador, usuario o dispositivo electrónico que muestre la página, la modificación de la visualización del documento sin alterar el contenido del mismo, sólo modificando algunos parámetros del CSS.</p>
+
+					<p>Optimización del ancho de banda de la conexión, pues pueden definirse los mismos estilos para muchos elementos con un sólo selector; o porque un mismo archivo CSS puede servir para una multitud de documentos.</p>
+
+					<p>Mejora en la accesibilidad del documento, pues con el uso del CSS se evitan antiguas prácticas necesarias para el control del diseño (como las tablas), y que iban en perjuicio de ciertos usos de los documentos, por parte de navegadores orientados a personas con algunas limitaciones sensoriales.</p>
+
+					<p>Al poder elegir el archivo CSS que deseamos mostrar, puede aumentar la accesibilidad ya que podemos asignarle un código CSS concreto a personas con deficiencias visuales, por ejemplo. Esto lo detecta el navegador web. 
+						Conseguimos hacer mucho más legible el código HTML al tener el código CSS aparte (Siempre que no usemos estilos en línea, claro está). 
+					Pueden mostrarse distintas hojas de estilo según el dispositivo que estemos utilizando (versión impresa, versión móvil, leída por un sintetizador de voz…) o dejar que el usuario elija. </p>
+
+					<p>Gracias a la técnica CSS Sprites podemos aligerar la carga de nuestro sitio al juntar todas las imágenes en una. 
+						Las novedades de CSS3 nos permiten ahorrarnos tiempo y trabajo al poder seguir varias técnicas (bordes redondeados, sombra en el texto, sombra en las cajas, etc.) sin necesidad de usar un editor gráfico. 
+					Desventajas</p>
+					A veces, dependiendo del navegador (Acid tests), la página que ha sido maquetada con CSS puede verse distinta (Aunque, si hemos seguido los estándares web de forma correcta, el problema es del navegador).
+					<p>Existen limitaciones que CSS 2.x todavía no permite, por ejemplo, la alineación vertical de capas, las sombras, los bordes redondeados…
+						El uso de las tablas nos permitía crear diseños complejos de forma mucho más sencilla que utilizando CSS, aunque CSS3 está intentando facilitar dicho trabajo. 
+					A veces, dependiendo del navegador (Acid tests), la página que ha sido maquetada con CSS puede verse distinta (Aunque, si hemos seguido los estándares web de forma correcta, el problema es del navegador).</p>
+
+					
+
+					<div id ="indice4"><h2>Caracteristicas</h2></div>
+
+					<p>1. Atributo gradiente de colores en borde con CSS y Firefox: Posibilidad de definir el un gradiente de color en el borde de los elementos con CSS, en un atributo no estándar de Firefox.</p>
+
+					<p>2. Bordes redondeados en CSS 3: Las características de CSS 3 incluyen bordes redondeados, a través del atributo border-radius, que define la curvatura que debe tener el borde del elemento.</p>
+					<p>3. Múltiples imágenes de fondo con CSS: Cómo conseguir que un elemento de la página tenga varias imágenes de fondo a la vez, con CSS básico y con características de CSS 3. </p>
+					<p>4. Colores RGBA en CSS 3: Veremos qué son los colores RGBA y su notación, que se incluyen en la especificación de Hojas de Estilo en Cascada CSS 3. </p>
+					<p>5. Word-wrap en CSS 3: Una propiedad de CSS 3 que sirve para romper las palabras que son demasiado largas y no caben enteras por la anchura de una caja.</p>
+					<p>6. Textos multi-columna con CSS 3: CSS 3 incorpora nuevos atributos para que el navegador se encargue de producir texto multicolumna, es decir, que maquete directamente el texto en varias columnas sin tener que hacer nosotros nada.</p>
+					<p>7. Bordes con imágenes en CSS 3: El atributo border-image y varios otros de CSS 3 harán posible la utilización de imágenes como bordes de los elementos de la página, sin código HTML especial, simplemente con hojas de estilo.</p>				
+					<p>Se obtiene un mayor control de la presentación del sitio al poder tener todo el código CSS reunido en uno, lo que facilita su modificación.</p>
+					
+
+
+					
+
+
+
+				</article>
+
+			</section>
+
+			<section class="descargas">
+				<ul>
+					<li class="des1"><a href="descarga/archivo.pdf" download= "descarga"><img 
+						src="img/ico-pdf.jpg"
+						alt="PDF" 
+						/>Descargar PDF</a></li>
+
+						<li class="des2"><a href="descarga/archivo.docx" download="Descarga"><img 
+							src="img/ico-word.jpg"
+							alt="WORD" 
+							/>Descargar WORD</a></li>
+
+							<li class="des3"><a href="descarga/archivo.zip" download= "descarga"><img 
+								src="img/ico-zip.jpg"
+								alt="ZIP" 
+								/>Descargar ZIP</a></li>
+
+								<li class="des3"><a href="descarga/archivo.jpg" download= "descarga"><img 
+									src="img/??????????.jpg"
+									alt="JPG" 
+									/>Descargar JPG</a></li>
+
+								</ul>
+							</div>
+
+						</section>
+
+
+						<aside id="publicidad">
+							<div class="publicidad"></div>
+							<div class="publicidad"></div>
+							<div class="publicidad"></div>
+						</aside>
+
+						
+						
+						<footer id="pie-pagina">			
+							<div class="redes-sociales">
+								<aside>
+									<a href="http://www.facebook.com/" target="_blank"><img 
+										src="img/face.jpg"
+										alt=" " 
+										/></a>
+										<a href="http://www.twitter.com/" target="_blank"><img 
+											src="img/twitter.jpg"
+											alt=" " 
+											/></a>
+										</aside>
+									</div>
+									<p>Todos los derechos reservados. CADIF1</p>
+								</footer>
+							</div>
+						</body>
+						</html>
